@@ -1,0 +1,21 @@
+{
+    "name": "Tab Zenith",
+    "version": "1.0.0",
+    "description": "Efficiently manage open tabs and improve browsing organization",
+    "manifest_version": 3,
+    "author": "Tamer Khattab",
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "Tab Zenith"
+    },
+    "icons": {
+        "16": "logo.jpg",
+        "32": "logo.jpg",
+        "48": "logo.jpg",
+        "128": "logo.jpg"
+      },
+    "permissions": [
+        "tabs",
+        "storage" 
+    ]
+}

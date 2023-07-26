@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab Zenith</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <h1 class="header-title">Tab Zenith</h1>
+            <button id="createGroupButton">Create New Group</button>
+        </div>
+    </div>
+        <div class="modal"> <!-- Will be hidden initially -->
+            <h2 class="modal-title">Select Tabs for New Group</h2>
+            <ul id="tabList">
+                <!-- List of open tabs will be populated here -->
+            </ul>
+            <input type="text" id="groupNameInput" placeholder="Group Name">
+            <button id="doneButton">Done</button>
+        </div>
+        <div class="group-container">
+            <!-- Selected tabs will be displayed here -->
+        </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
